@@ -1,0 +1,4 @@
+#!/bin/bash
+FILE=NBA-playerlist.csv
+cat $FILE | cut -d , -f 3 | sort | uniq
+
